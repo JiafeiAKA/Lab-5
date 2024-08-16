@@ -42,6 +42,7 @@
 </template>
 
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import { useRouter, useRoute } from 'vue-router'
